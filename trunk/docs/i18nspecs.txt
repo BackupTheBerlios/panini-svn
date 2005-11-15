@@ -1,0 +1,56 @@
+Web Based Translation / Translator Management Application
+---------------------------------------------------------
+
+We are looking at building a web based translator / translation
+management application. These days, i18n / l10n projects mostly get
+translations done from translators by exchanging PO files via Email
+which is not only slow, but also a very cumbersome process. It doesn't
+allow the project admin to track changes to the PO file and also has no
+scope to track contributions from a given translator. Moreover, with so
+many projects to be translated and so few people participating, it's
+impractical to translate most common strings automatically. There should
+also be a way to remember translations so as to save time in further
+translations and also assure a certain level of consistency of
+translations among all applications. The major issues that are being
+faced by most l10n groups today can be summarised as below --
+
+* Lack of consistency among translations
+* Lack of any translation memory
+* Inefficient use of human resources
+* Lack of decent machine translation facilities
+* Lack of versioning information in translations
+* Mostly complicated translation tools
+* Desktop or web based apps are the only ways to do translation
+* Lack of a coordinated effort among different teams
+* There is no way to contribute in small parts
+* No easy way to get the PO files as and when required
+* No new contributors are coming up
+* The overall process of getting something translated is too long
+
+To solve the above problems and to make the l10n work much smoother, we
+are proposing a web based application which will also act as a
+centralised repository of all Indic l10n work. It will act as the
+ultimate resource for all l10n volunteers. People will be able to
+contribute their translations in a very easy and user friendly way. The
+web based tool intends to achieve the following --
+
+* Act as a central repository of all Indic translations across all
+  products / languages.
+* Make the job of the translator much easier by providing a web based
+  interface.
+* Make reviewing easy by clearly separating the reviewed and unreviewed
+  messages [Once click access to unreviewed strings].
+* Make it easy for beginners to contribute to the IndLinux project.
+* Always provide up to date POT files by monitoring upstream changes.
+* Make sure translations are never lost.
+* Make it easy for new / small language teams to start translating.
+* Provide an email interface
+* Shorten the translation <-> review -> commit process
+
+TODO: Fix the text and add some more points [must write around 1k
+words]. We also need to highlight translator management features, like
+how it will manage multiple teams of translators, do versioning of
+translations, etc. We also need to take a look at the features of
+Rosetta [http://lauchpad.net/rosetta] & Pootle
+[http://pootle.wordforge.org] and see which  of the good features we need.
+
