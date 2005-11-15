@@ -1,0 +1,64 @@
+After an IRC meet on Tue Oct 25, 2005 we reached a genral consensus on
+the following features --
+
+* Whether we will write an application or provide a service to the
+  people -- To be decided later
+
+* Statistics -- Must have  
+
+* Online Review -- Must have
+
+* Consistency Checking -- Must have
+
+* Version Control -- A basic form of VC should be there, nothing too
+  ambitious, but there will be a way to mark a PO file to be a part of x
+  version of y app while uploading. The app will in any case treat PO
+  files of different version as separate files. So in a way, the VC will
+  be at a higher level than the app itself
+
+* User Profiles -- Unnecessary
+
+* Management Console -- Not needed as volunteers will be able to take up
+  work via the stats page itself
+
+* Downloads -- A way to filter translations according to language,
+  product, etc. and download tarballs
+
+* Minor Points
+  -- Translated UI
+  -- Extensive Online Documentation
+  -- Email Interface
+  -- Screenshot Gallery (?)
+
+* TODO -- Think of more features to put in  
+
+It was also decided that we will try to hack on the Entrans JavaScript
+code to do the keymaps and integrate with our app. We'll acknowledge
+Entrans as the source of that code.
+  
+We have to state why we are doing a separate project and not joining an
+existing one: rosetta: not free pootle: in python, but no rdbms backend,
+so will not scale wordforge site itself seems to be broken.
+
+entrans: i personaly cannot join it as the languages are php and
+mysql. On the other hand it is an indian project with committed indian
+developers on it. We are also planning to use some of their javascript
+code. On the other hand, there is no project description so i dont know
+what they are planning.
+
+What software are we going to use and why?
+-- We'll of course use Django + PostgreSQL [+Apache/mod_python]
+
+storage of pot and po files in the rdbms or on the filesystem?
+
+django stores files and images on the filesystem with the path to the
+file in the database (default behaviour)
+-- We'll have to hack Django in such a way that we can store the
+POTfiles in the DB itself and not just the paths. [I guess it's very
+easily achievable since the PO file contains are part of the Model in
+any way]
+
+Can we use trac+svn in any manner?
+-- We'll have to investigate that, as I don't know anything about that
+at the moment. But if trac has a pluggable API which we can hook into
+via Django, then of course, why not?
