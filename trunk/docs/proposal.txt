@@ -1,5 +1,5 @@
-Proposal for an Integrated Translation Management Application
--------------------------------------------------------------
+Proposal for Panini - an Integrated Translation Management Application
+
 
 Synopsis: 
 
@@ -154,14 +154,17 @@ Proposed Roadmap:
    * Database structure and translation user interface - basic functionality
    * One language
    * Beta 1 release
+   * Service server on 'at your own risk' basis
 
 03 Months:
    * Complete admin and user interface added
    * Any number of languages
+   * Service server updated
 
 06 Months:
    * Handling of diffs, statistics, reports - complete functionality
    * Beta 2 release.
+   * Service server in production - 'at our risk basis'
 
 08 Months:
    * Addition of email interface and interface for translation of documents
@@ -192,6 +195,12 @@ feedback.
   
 Funding:
 
+We are applying for two concurrent fellowships. We intend to develop the
+application on one hand, and, at the same time, set up a service for
+translators to use. The advantage of having a live service would be for
+active feedback for the application developement process, thus ensuring
+that the application does not wind up as academic vapourware.
+
 1. We'll initially require 6 months funding to create the application
    with the most important features. Preferably we'd like to receive an
    additional 6 months of funding to incorporate more advanced features
@@ -200,8 +209,9 @@ Funding:
    cases, etc.
    
 2. Hosting space with root access along with Subversion, Python, Apache
-   mod_python, PostgreSQL and a few GB of diskspace - $400 per year is
-   the going rate.   
+   mod_python, PostgreSQL and a few GB of diskspace - we will either get
+   hosted or will fund the hosting out of the fellowship amount for the
+   service server.
 
 Developers:
 
@@ -215,7 +225,7 @@ The developers are:
    working committee.
    Email - b.ghose@gnu.org.in
 
-2. Kenneth Gonsalves: An Free & Open source Developer. Resume is
+2. Kenneth Gonsalves: A Free & Open source Developer. Resume is
    http://avsap.org.in
    Email - lawgon@thenilgiris.com
 
