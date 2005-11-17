@@ -12,8 +12,8 @@ the application  developer to coordinate the efforts  of individuals and
 maintain an adequate level of accuracy and consistency.
 
 The  application  should cater  to  both  sporadic  or 'one-off'  online
-translation  efforts and  more  consistent off-line  efforts. Thus  it'd
-basically  be a  online web  based  application, but  will also  support
+translation  efforts and  more  consistent off-line  efforts. Thus  it will
+basically  be an  online web  based  application, but  will also  support
 offline contributions too.
 
 In addition  the application  should build a  basic database  of strings
@@ -23,7 +23,8 @@ already translated strings.
 
 The  application  should, at  a  later  stage  cater to  translation  of
 documentation - which has to be served to the translator para or section
-wise unlike translation of source which is served string by string.
+wise unlike translation of source which is served string by string. This
+section should also strip all html/xml tags when offering for translation.
 
 It goes  without saying  that the application  should be  free software,
 multiplatform  and  multilingual.  It   is  also  clear  that  any  such
