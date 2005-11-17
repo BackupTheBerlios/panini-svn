@@ -12,8 +12,8 @@ the application  developer to coordinate the efforts  of individuals and
 maintain an adequate level of accuracy and consistency.
 
 The  application  should cater  to  both  sporadic  or 'one-off'  online
-translation  efforts and  more  consistent off-line  efforts. Thus  it will
-basically  be an  online web  based  application, but  will also  support
+translation efforts  and more consistent off-line efforts.  Thus it will
+basically  be an  online web  based application,  but will  also support
 offline contributions too.
 
 In addition  the application  should build a  basic database  of strings
@@ -24,7 +24,8 @@ already translated strings.
 The  application  should, at  a  later  stage  cater to  translation  of
 documentation - which has to be served to the translator para or section
 wise unlike translation of source which is served string by string. This
-section should also strip all html/xml tags when offering for translation.
+section  should   also  strip  all  HTML/XML  tags   when  offering  for
+translation.
 
 It goes  without saying  that the application  should be  free software,
 multiplatform  and  multilingual.  It   is  also  clear  that  any  such
@@ -205,12 +206,12 @@ Commitment To Help Existing Language Teams:
 
 We are committed  towards helping existing language teams  in setting up
 the application  for them and  provide all assistance to  them regarding
-usage of  the application.   We have at  present talked to  two language
+usage of  the application.  We have  at present talked  to four language
 teams, namely  the Oriya (or)  language team's Gora Mohanty,  the Nepali
-(np) language  team's Subir  B & the  Dzongkha (dz) team's  Pema Geyleg.
-Pradhanang.  We'll  work with them  in getting the  application deployed
-for  them  and  they will  help  us  by  providing translations  of  the
-interface, bug reports & general feedback.
+(np)  language team's Subir  B Pradhanang,  Gujarati (gu)  team's Kartik
+Mistry & the Dzongkha (dz) team's  Pema Geyleg.  We'll work with them in
+getting  the application  deployed for  them and  they will  help  us by
+providing translations of the interface, bug reports & general feedback.
 
 Funding:
 
