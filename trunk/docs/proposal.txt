@@ -238,10 +238,10 @@ Developers:
 The developers are:
 
 1. Baishampayan Ghose: A Computer Sci. & Engg. Student & a Free Software
-   developer. I am  an experienced Python developer and  a active member
-   of the  Free Software  community. I have  some i18n  experience while
+   developer. He is  an experienced Python developer and  a active member
+   of the  Free Software  community. He has  some i18n  experience while
    leading the Bengali translation  effort of Debian-Installer, Drupal &
-   Django. I am  also a member of the Free  Software Foundation of India
+   Django. He is  also a member of the Free  Software Foundation of India
    working committee.
    Email - b.ghose@gnu.org.in
 
