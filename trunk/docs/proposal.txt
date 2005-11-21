@@ -99,7 +99,7 @@ Merging Translations & Upstream Syncing:
 There will be provison for merging translations done through independent
 systems.  That will  avoid redundancy  and will  help in  making  use of
 pre-existing translations.
-The application would allow syncing of translated files directly with
+The application  would allow syncing  of translated files  directly with
 upstream CVS / SVN repositories.
 
 Translation Memory:
