@@ -94,11 +94,20 @@ The  application  will provide  detailed  statistics  of  the number  of
 strings translated. This can also  be filtered according to the project,
 language, translator as well as different project versions.
 
-Merging Translations:
+Merging Translations & Upstream Syncing:
 
 There will be provison for merging translations done through independent
 systems.  That will  avoid redundancy  and will  help in  making  use of
 pre-existing translations.
+The application would allow syncing of translated files directly with
+upstream CVS / SVN repositories.
+
+Translation Memory:
+
+The system  wil never throw  translations away. All  proposed, accepted,
+rejected  translations will  be  perpetually kept  in  the database  for
+future  reference. For example,  the system  would be  able to  show all
+prior translations of a given string in any given language.
 
 Online Review:
 
@@ -144,6 +153,13 @@ Email Interface:
 As already pointed  out, we intend to provide an  Email interface to the
 application so  that authenticated translators  can recieve untranslated
 strings and send translations by Email.
+
+Web Services API:
+
+The system would provide a Webservice API so that existing & new desktop
+translation tools can plug into  the application via a plugin. This will
+enable translators  to keep using their  tools but with  the Panini back
+end.
 
 Screenshot Gallery:
 
