@@ -2,6 +2,7 @@ Proposal for Panini - an Integrated Translation Management Application
 ----------------------------------------------------------------------
 
 Synopsis: 
+---------
 
 Translation of free & open source applications - like free & open source
 applications   themselves,    depend   on   the    whims   of   would-be
@@ -32,6 +33,7 @@ multiplatform  and  multilingual.  It   is  also  clear  that  any  such
 application has to be web based.
 
 Existing efforts:
+-----------------
 
 We  have  investigated  Rosetta [https://launchpad.net/rosetta],  Pootle
 [http://pootle.wordforge.org/]   and   Entrans  [http://entrans.sf.net].
@@ -44,6 +46,7 @@ project. However elements  of it's user interface are  good and could be
 incorporated into this project.
 
 Platform:
+---------
 
 We propose using the Python  scripting language with PostgreSQL RDBMS as
 a backend.  The  webserver will be Apache. We will  be using other tools
@@ -55,6 +58,7 @@ scripting language, more non-technical people will be encouraged to hack
 at and contribute to the project.
 
 Workflow:
+---------
 
 The Application  developer registers an application and  uploads the POT
 file.  He also  gives the file version. The  application will treat each
@@ -104,7 +108,7 @@ upstream CVS / SVN repositories.
 
 Translation Memory:
 
-The system  wil never throw  translations away. All  proposed, accepted,
+The system  will never throw translations away.  All proposed, accepted,
 rejected  translations will  be  perpetually kept  in  the database  for
 future  reference. For example,  the system  would be  able to  show all
 prior translations of a given string in any given language.
@@ -169,6 +173,7 @@ scene as  well as to  show the status  of translations for  a particular
 language / project.
 
 Schedule:
+---------
 
 We  will have  a  server up  and running  with  a basic  version of  the
 application within a month of  starting the project. Working with active
@@ -176,6 +181,7 @@ developers and  translators, the application  will be fine-tuned  over a
 period of 6 months to a year.
 
 Proposed Roadmap:
+-----------------
 
 01 Month:
    * Database structure and translation user interface - basic functionality
@@ -219,6 +225,7 @@ and and translators - features will be added and modified in response to
 the feedback.
 
 Commitment To Help Existing Language Teams:
+-------------------------------------------
 
 We are committed  towards helping existing language teams  in setting up
 the application  for them and  provide all assistance to  them regarding
@@ -230,6 +237,7 @@ getting  the application  deployed for  them and  they will  help  us by
 providing translations of the interface, bug reports & general feedback.
 
 Funding:
+--------
 
 We are applying for two concurrent fellowships. We intend to develop the
 application on  one hand, and,  at the same  time, set up a  service for
@@ -250,6 +258,7 @@ that the application does not wind up as academic vapourware.
    service server.
 
 Developers:
+-----------
 
 The developers are:
 
