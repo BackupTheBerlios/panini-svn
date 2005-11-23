@@ -12,9 +12,9 @@ as much as  they want of portions  they want and at the  same time allow
 the application  developer to coordinate the efforts  of individuals and
 maintain an adequate level of accuracy and consistency.
 
-The  application  should cater  to  both  sporadic  or 'one-off'  online
-translation efforts  and more consistent off-line efforts.  Thus it will
-basically  be an  online web  based application,  but will  also support
+The  application should  cater  to both  sporadic  or 'one-off'  on-line
+translation efforts and more  consistent off-line efforts.  Thus it will
+basically be  an on-line  web based application,  but will  also support
 offline contributions too.
 
 In addition  the application  should build a  basic database  of strings
@@ -29,7 +29,7 @@ section  should   also  strip  all  HTML/XML  tags   when  offering  for
 translation.
 
 It goes  without saying  that the application  should be  free software,
-multiplatform  and  multilingual.  It   is  also  clear  that  any  such
+multi-platform  and  multilingual.   It  is  also clear  that  any  such
 application has to be web based.
 
 Existing efforts:
@@ -37,9 +37,9 @@ Existing efforts:
 
 We  have  investigated  Rosetta [https://launchpad.net/rosetta],  Pootle
 [http://pootle.wordforge.org/]   and   Entrans  [http://entrans.sf.net].
-Rosetta is proprietory software. Pootle,  written in python has the idea
-correct, but it uses a  filesystem to store everything and probably wont
-scale.  Entrans uses  PHP and  MySQL, which  we feel  are not  stable or
+Rosetta is proprietary software. Pootle,  written in python has the idea
+correct, but it uses a file-system to store everything and probably wont
+scale.  Entrans  uses PHP  and MySQL,  which we feel  are not  stable or
 secure  enough  for  an  application  of  this nature  -  and  from  the
 documentation does  not appear  to have the  comprehensive aims  of this
 project. However elements  of it's user interface are  good and could be
@@ -49,7 +49,7 @@ Platform:
 ---------
 
 We propose using the Python  scripting language with PostgreSQL RDBMS as
-a backend.  The  webserver will be Apache. We will  be using other tools
+a back-end.  The web server will be Apache. We will be using other tools
 and frameworks not limited to  Django, Subversion and Trac for scripting
 various parts  of the  project. Both Python  and PostgreSQL  are stable,
 mature and inherently  secure and used worldwide on  an immense range of
@@ -73,16 +73,16 @@ presented to  all translators who wish  to translate the  file wholly or
 partially.
 
 All translations  of strings in all  official versions will  be added to
-the database.  In case of more than  one translation of a  string into a
-given  lanuguage, all  translations  will be  added  and it  is left  to
+the database.  In  case of more than one translation of  a string into a
+given  language,  all translations  will  be added  and  it  is left  to
 individual developers to choose the one they want.
 
 There will be  a facility for experts in  particular languages to review
 the  database and  cull  out obviously  incorrect translations,  correct
 spellings,  mark any one  translation as  'preferred' and  remove almost
-identical duplic ates.
+identical duplicate ates.
 
-Translators will be  able to use the online interface  as well as upload
+Translators will be able to use  the on-line interface as well as upload
 translations made offline. Submitting translations by email will also be
 catered to, but this will not have an automatic interface. The developer
 will have  to accept responsibility for accepting  email submissions and
@@ -100,29 +100,29 @@ language, translator as well as different project versions.
 
 Merging Translations & Upstream Syncing:
 
-There will be provison for merging translations done through independent
-systems.  That will  avoid redundancy  and will  help in  making  use of
-pre-existing translations.
+There  will   be  provision   for  merging  translations   done  through
+independent systems.  That will avoid redundancy and will help in making
+use of pre-existing translations.
 The application  would allow syncing  of translated files  directly with
 upstream CVS / SVN repositories.
 
 Translation Memory:
 
-The system  will never throw translations away.  All proposed, accepted,
+The system will never  throw translations away.  All proposed, accepted,
 rejected  translations will  be  perpetually kept  in  the database  for
 future  reference. For example,  the system  would be  able to  show all
 prior translations of a given string in any given language.
 
-Online Review:
+On-line Review:
 
-An system for reviewing the translations online will be present so as to
-help  trusted reviewers  to  just login  to  the system  and review  the
+An system for  reviewing the translations on-line will  be present so as
+to help  trusted reviewers to  just login to  the system and  review the
 translations.
 
 Consistency Checking:
 
 The  application  will  automatically   check  the  consistency  of  the
-translations  and will  report errors  if any  for fixes.  In case  of a
+translations and  will report  errors if  any for fixes.   In case  of a
 broken translation,  the official version  will be switched to  the last
 sane  translation until  the broken  [but  newer] version  is fixed  and
 committed.
@@ -142,11 +142,11 @@ case they want to translate offline.
 
 Translated UI:
 
-The UI of the application  itself will be translated into various indian
-langauges so  as to allow translators  use the application  in their own
+The UI of the application  itself will be translated into various Indian
+languages so  as to allow translators  use the application  in their own
 native language.
 
-Extensive Online Documentation:
+Extensive On-line Documentation:
 
 Documentation  is very important  in a  project and  we will  provide an
 extensive documentation  for the application  so that it's easy  for the
@@ -155,22 +155,22 @@ translators / admins to pick it up and start using.
 Email Interface:
 
 As already pointed  out, we intend to provide an  Email interface to the
-application so  that authenticated translators  can recieve untranslated
+application so  that authenticated translators  can receive untranslated
 strings and send translations by Email.
 
 Web Services API:
 
-The system would provide a Webservice API so that existing & new desktop
-translation tools can plug into  the application via a plugin. This will
-enable translators  to keep using their  tools but with  the Panini back
-end.
+The  system would  provide  a Web-service  API  so that  existing &  new
+desktop  translation   tools  can  plug  into  the   application  via  a
+plugin. This will enable translators  to keep using their tools but with
+the Panini back end.
 
 Screenshot Gallery:
 
-There will be a screenhot gallery which will have screenshots of various
-translated applications to  inspire more people to join  the i18n / l10n
-scene as  well as to  show the status  of translations for  a particular
-language / project.
+There  will be  a  screenshot  gallery which  will  have screenshots  of
+various translated applications to inspire  more people to join the i18n
+/  l10n scene  as  well as  to show  the  status of  translations for  a
+particular language / project.
 
 Schedule:
 ---------
@@ -242,7 +242,7 @@ Funding:
 We are applying for two concurrent fellowships. We intend to develop the
 application on  one hand, and,  at the same  time, set up a  service for
 translators to use. The advantage of  having a live service would be for
-active feedback for the  application developement process, thus ensuring
+active feedback  for the application development  process, thus ensuring
 that the application does not wind up as academic vapourware.
 
 1. We'll initially  require 6 months  funding to create  the application
@@ -253,9 +253,9 @@ that the application does not wind up as academic vapourware.
    cases, etc.
    
 2. Hosting space with root  access along with Subversion, Python, Apache
-   mod_python, PostgreSQL and a few GB of diskspace - we will either get
-   hosted or will fund the hosting  out of the fellowship amount for the
-   service server.
+   mod_python, PostgreSQL  and a few GB  of disk-space -  we will either
+   get hosted or will fund the  hosting out of the fellowship amount for
+   the service server.
 
 Developers:
 -----------
@@ -270,7 +270,7 @@ The developers are:
    working committee.
    Email - b.ghose@gnu.org.in
 
-2. Kenneth  Gonsalves:  A  Free  &  Open  source  Developer.  Resume  is
+2. Kenneth  Gonsalves:  A  Free  &  Open source  Developer.   Resume  is
    http://avsap.org.in
    Email - lawgon@thenilgiris.com
 
