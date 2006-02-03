@@ -1,0 +1,35 @@
+actors and goals
+
+author - 
+	register,
+	offer work for translation,
+	appoint translator/translators,
+	appoint reviewers,
+	get translation reviewed and approved,
+	get translation updated,
+	get automatic translation 
+
+translator - 
+	register,
+	get translation work,
+	translate work,
+	get rated,
+	get paid
+
+reviewer - 
+	register,
+	get review work,
+	review work,
+	get rated,
+	get paid
+	
+siteadmin -
+	add/approve/delete/rank users
+	update/enlarge string database
+	review and approve string database
+	mediate disputes
+
+
+
+ 
+
