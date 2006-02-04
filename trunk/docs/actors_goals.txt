@@ -30,6 +30,29 @@ siteadmin -
 	mediate disputes
 
 
+sample use case - register
+
+actor author, translator, reviewer
+goal - to register
+conditions - should have a verifiable email address and the email address
+should not be already registered
+
+1. actor submits email address
+2. email address is checked against database
+If email is already in the database, failure, actor directed to login page
+
+3. verifying email sent to the email address
+4. actor verifies email
+If actor does not verify, failure, no further action
+
+5. actor fills in form with his details
+6. form is validated
+If form is invalid or incomplete, form returned for rectification. If not
+validated, failure, no further action
+
+7. If form is validated actor is registered
+8. actor is notified of registration by email
+
 
  
 
