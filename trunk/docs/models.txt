@@ -1,0 +1,15 @@
+just to set the ball rolling
+
+models
+
+1. users - extend the existing users module, need fields:
+roles - many2many to roles table
+
+2. roles - author, translator, reviewer etc
+
+3. projects - name, owner (fkey to users), startdate
+
+4. files - name, version, project(fkey to project), startdate
+
+5. translations - language, file(fkey to files) translators (m2m key to users,
+reviewers, (m2m to users)
