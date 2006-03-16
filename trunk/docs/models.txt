@@ -5,7 +5,7 @@ models
 1. users - extend the existing users module, need fields:
 roles - many2many to roles table
 
-2. roles - author, translator, reviewer etc
+2. roles - admin, translator, reviewer etc
 
 3. projects - name, owner (fkey to users), startdate
 
@@ -13,3 +13,17 @@ roles - many2many to roles table
 
 5. translations - language, file(fkey to files) translators (m2m key to users,
 reviewers, (m2m to users)
+
+Do we save the translations as strings belonging to projects? That would
+help us solve a few issues I guess. Something like --
+
+string belongs to many files
+string has one translation
+string has many translation suggestion
+string has zero or many comments (comments belong to files)
+string has one boolean field (fuzzy)
+
+
+So we can make sure each string has only one translation and many
+suggestions if at all.
+Kindly see how we can express the above idea in Django.
